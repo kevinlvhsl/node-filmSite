@@ -17,9 +17,7 @@ app.use(require('body-parser').urlencoded({extended: true}))
 app.listen(port)
 
 console.log('kevin\'s app started on port' + port)
-
-
-
+//express需要升级
 //express route
 app.get('/',function(req, res){
 	Movie.fetch(function(err, movies){
