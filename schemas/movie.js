@@ -1,13 +1,13 @@
 var mongoose = require('mongoose');
 //new sechema object
 var MovieSchema = new mongoose.Schema({
-	doctor : String,
-	title : String,
-	language : String,
-	country : String,
-	summary : String,
-	poster : String,
-	flash : String,
+	doctor : String,	//导演	
+	title : String,		//标题	
+	language : String,  	//语言	
+	country : String,  	//国家	
+	summary : String,	//简介	
+	poster : String,	//海报地址	
+	flash : String,		//播放地址	
 	year : Number,
 	meta: {
 		createAt: {
