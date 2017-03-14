@@ -1,8 +1,8 @@
 # Simple Film site
-
+---------
 KEVIN'S FILM SITE 
 
-启动方法：
+启动方法：此mongodb版本比较老， 请注意版本
 启动mongoodb后
 ```
 d:
